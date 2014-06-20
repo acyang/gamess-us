@@ -1,0 +1,18 @@
+#!/bin/csh
+#   compilation configuration for GAMESS
+#   generated on alps6
+#   generated at Tue Feb 25 16:53:47 CST 2014
+setenv GMS_PATH            /home/p00acy00/gamess
+setenv GMS_BUILD_DIR       /home/p00acy00/gamess
+#         machine type
+setenv GMS_TARGET          linux64
+#         FORTRAN compiler setup
+setenv GMS_FORTRAN         gfortran
+setenv GMS_GFORTRAN_VERNO  4.6
+#         mathematical library setup
+setenv GMS_MATHLIB         acml
+setenv GMS_MATHLIB_PATH    /pkg/amd/acml5.2.0/gfortran/gfortran64_int64/lib
+#         parallel message passing model setup
+setenv GMS_DDI_COMM        sockets
+#         LIBCCHEM CPU/GPU code interface
+setenv GMS_LIBCCHEM        false
